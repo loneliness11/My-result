@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700;900&family=Raleway:wght@800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.min.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Тестовое</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="#" class="header__logo">LoremIpsum.<span class="header__logo header__logo--blue">Net</span></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link header__link--active">Бизнес</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">О нас</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Цены</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Оформить заказ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="main">
+      <div class="container">
+        <h1 class="main__title"><span class="main__title main__title--blue">Lorem ipsum</span> dolor sit <br> amet
+          consectetur <span class="main__title main__title--blue">adipiscing</span></h1>
+        <h2 class="main__subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus!</h2>
+        <ul class="main__list">
+          <li class="main__item">Totam rem aperiam eaque ipsa</li>
+          <li class="main__item">Sit voluptatem accusantium doloremque laudantium</li>
+          <li class="main__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+        <div class="main__btns">
+          <button class="main__btn main__btn--blue">Заказать</button>
+          <button class="main__btn main__btn--white">Подробнее</button>
+        </div>
+      </div>
+    </section>
+    <section class="order">
+      <div class="container">
+        <h2 class="order__title">Оформление <span class="order__title-blue">Заказа</span></h2>
+        <h3 class="order__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</h3>
+        <div class="order__items">
+          <div class="order__item">
+            <div class="order__item-top">
+              <div class="order__item-icon">
+                <img src="/img/order/search.svg" alt="Искать">
+              </div>
+            </div>
+            <div class="order__item-descr">Lorem ipsum dolor
+              sit amet</div>
+          </div>
+          <div class="order__item">
+            <div class="order__item-top">
+              <div class="order__item-icon">
+                <img src="/img/order/percent.svg" alt="Процент">
+              </div>
+            </div>
+            <div class="order__item-descr">Сonsecteturadipiscing elit</div>
+          </div>
+          <div class="order__item">
+            <div class="order__item-top">
+              <div class="order__item-icon">
+                <img src="/img/order/file.svg" alt="Файл">
+              </div>
+            </div>
+            <div class="order__item-descr">Sed do eiusmod tempor</div>
+          </div>
+          <div class="order__item">
+            <div class="order__item-top">
+              <div class="order__item-icon">
+                <img src="/img/order/message.svg" alt="Сообщение">
+              </div>
+            </div>
+            <div class="order__item-descr">Esse cillum dolore
+              eu fugiat</div>
+          </div>
+          <div class="order__item">
+            <div class="order__item-top">
+              <div class="order__item-icon">
+                <img src="/img/order/money.svg" alt="Деньги">
+              </div>
+            </div>
+            <div class="order__item-descr">Excepteur sint occaecat cupidatat non proident</div>
+          </div>
+        </div>
+        <form action="#" class="order__form" method="post" enctype="multipart/form-data">
+          <div class="order__grid">
+            <div class="order__label order__label--select">
+              <div class="order-select" data-name="system">
+                <div class="order-select__trigger placeholder">
+                  <span>Выберите тип системы</span>
+                  <div class="order-select__arrow"></div>
+                </div>
+                <div class="order-select__options">
+                  <div class="order-select__option" data-value="sed">Sed ut perspiciatis</div>
+                  <div class="order-select__option" data-value="nemo">Nemo enim ipsam</div>
+                  <div class="order-select__option" data-value="et">Et harum quidem</div>
+                  <div class="order-select__option" data-value="temp">Temporibus autem</div>
+                  <div class="order-select__option" data-value="itaque">Itaque earum rerum</div>
+                  <div class="order-select__option" data-value="lorem">Lorem ipsum dolor</div>
+                  <div class="order-select__option" data-value="cons">Consectetur adipiscing</div>
+                  <div class="order-select__option" data-value="magna">Magna aliqua</div>
+                </div>
+                <select name="system" class="hidden-select">
+                  <option value="">Выберите тип системы</option>
+                  <option value="sed">Sed ut perspiciatis</option>
+                  <option value="nemo">Nemo enim ipsam</option>
+                  <option value="et">Et harum quidem</option>
+                  <option value="temp">Temporibus autem</option>
+                  <option value="itaque">Itaque earum rerum</option>
+                  <option value="lorem">Lorem ipsum dolor</option>
+                  <option value="cons">Consectetur adipiscing</option>
+                  <option value="magna">Magna aliqua</option>
+                </select>
+              </div>
+            </div>
+            <label class="order__label">
+              <input class="order__input" type="email" name="email" placeholder="Ваш e-mail" required>
+            </label>
+            <label class="order__label">
+              <input class="order__input" type="text" name="name" placeholder="Ваше имя">
+            </label>
+            <div class="order__range-wrapper">
+              <div class="order__range-top">
+                <div class="order__range-label">Sed ut perspiciatis, unde omnis iste natus</div>
+                <div class="order__range-value">75%</div>
+              </div>
+              <div class="order__range-slider">
+                <input type="range" min="0" max="100" value="75" class="order__range-input">
+                <div class="order__range-track">
+                  <div class="order__range-fill"></div>
+                </div>
+                <div class="order__range-thumb"></div>
+              </div>
+            </div>
+            <div class="order__file-wrapper">
+              <label class="order__file-label">
+                <input type="file" name="file" class="order__file-input">
+                <span class="order__file-button">
+                  <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M16.8125 4.60899L13.3304 1.12685C12.9174 0.713902 12.0915 0.36792 11.5 0.36792H1.50002C0.9085 0.36792 0.428589 0.847831 0.428589 1.43935V19.2965C0.428589 19.888 0.9085 20.3679 1.50002 20.3679H16.5C17.0915 20.3679 17.5714 19.888 17.5714 19.2965V6.43935C17.5714 5.84783 17.2255 5.02194 16.8125 4.60899ZM11.8572 1.88578C12.0469 1.95274 12.2366 2.05319 12.3148 2.13131L15.8081 5.62462C15.8862 5.70274 15.9866 5.89247 16.0536 6.08221H11.8572V1.88578ZM16.1429 18.9394H1.85716V1.79649H10.4286V6.43935C10.4286 7.03087 10.9085 7.51078 11.5 7.51078H16.1429V18.9394ZM4.7143 9.29649V10.0108C4.7143 10.2117 4.87055 10.3679 5.07145 10.3679H12.9286C13.1295 10.3679 13.2857 10.2117 13.2857 10.0108V9.29649C13.2857 9.0956 13.1295 8.93935 12.9286 8.93935H5.07145C4.87055 8.93935 4.7143 9.0956 4.7143 9.29649ZM12.9286 11.7965H5.07145C4.87055 11.7965 4.7143 11.9527 4.7143 12.1536V12.8679C4.7143 13.0688 4.87055 13.2251 5.07145 13.2251H12.9286C13.1295 13.2251 13.2857 13.0688 13.2857 12.8679V12.1536C13.2857 11.9527 13.1295 11.7965 12.9286 11.7965ZM12.9286 14.6536H5.07145C4.87055 14.6536 4.7143 14.8099 4.7143 15.0108V15.7251C4.7143 15.926 4.87055 16.0822 5.07145 16.0822H12.9286C13.1295 16.0822 13.2857 15.926 13.2857 15.7251V15.0108C13.2857 14.8099 13.1295 14.6536 12.9286 14.6536Z"
+                      fill="#272733" />
+                  </svg>
+                  Прикрепить файл
+                </span>
+              </label>
+              <div class="order__file-status"></div>
+            </div>
+          </div>
+          <div class="order__btn-wrapper">
+            <button type="submit" class="order__btn">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+        <div class="footer__security"><span class="tt-upper">© 2018 «LoremIpsum.net»</span> Все права защищены.</div>
+        <div class="footer__pay">
+          <div class="footer__pay-item">
+            <img src="img/footer/qiwi.svg" alt="Qiwi" class="footer__pay-img">
+            <div class="footer__pay-name">Qiwi wallet</div>
+          </div>
+          <div class="footer__pay-item">
+            <img src="img/footer/yandex.svg" alt="Yandex money" class="footer__pay-img">
+            <div class="footer__pay-name">Yandex Money</div>
+          </div>
+          <div class="footer__pay-item">
+            <img src="img/footer/web-money.svg" alt="Web money" class="footer__pay-img">
+            <div class="footer__pay-name">Web Money</div>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__link-item">
+            <img src="img/footer/message.svg" alt="Почта" class="footer__link-img">
+            <a href="mailto:info@ipsum228.com" class="footer__link">info@ipsum228.com</a>
+          </div>
+          <div class="footer__link-item">
+            <img src="img/footer/vk.svg" alt="Вконтакте" class="footer__link-img">
+            <a href="https://vk.com/" target="_blank" class="footer__link">Мы вконтакте</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
